@@ -10,3 +10,29 @@
     --font-color: #08090d;
     --ff-primary: "Montserrat", sans-serif;
 }
+
+.home-navbar {
+    background-color: var(--primary) !important;
+    color: white;
+}
+
+.home-navbar .navbar-brand {
+    color: var(--secondary);
+    padding-left: 2vw;
+}
+
+.home-navbar .nav-link {
+    color: white !important;
+    margin-right: 3vw;
+    font-size: 1.3vw;
+    font-weight: 500;
+}
+
+.home-navbar #collapsibleNavId {
+    margin-left: 20vw;
+}
+
+.home-navbar #login-nav {
+    color: #c60018 !important;
+    margin-left: 28vw;
+}
