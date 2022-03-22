@@ -10,17 +10,18 @@
     --font-color: #08090d;
     --ff-primary: "Montserrat", sans-serif;
 }
-.about-header{
-    color: white;
-    font-family: sans-serif;
-    
+
+body{
+    font-family: "Montserrat", sans-serif;
 }
 
-.about-header, img{
-    background-image: url('img/image.png');
-    background-size: cover;
+
+.about-header{
+    font-family: "Montserrat", sans-serif;
     height: 400px;
-    padding: 30px;
+    background-image: url('../images/image.png');
+    background-size: cover;
+   
 
 }
 
