@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: "Montserrat", sans-serif;
 }
 
 :root {
@@ -23,28 +24,28 @@
     align-items: center;
 }
 
-.home-navbar {
+.navbar {
     background-color: var(--primary) !important;
     color: white;
 }
 
-.home-navbar .navbar-brand {
-    color: var(--secondary);
+.navbar-brand {
+    color: var(--secondary) !important;
     padding-left: 2vw;
 }
 
-.home-navbar .nav-link {
+.nav-link {
     color: white !important;
     margin-right: 3vw;
     font-size: 1.3vw;
     font-weight: 500;
 }
 
-.home-navbar #collapsibleNavId {
+#navbarSupportedContent {
     margin-left: 20vw;
 }
 
-.home-navbar #login-nav {
+#login-nav {
     color: #c60018 !important;
     margin-left: 28vw;
 }
@@ -57,6 +58,10 @@
 .carousel-item {
     height: 80vh;
     object-fit: cover;
+}
+
+.carousel-caption {
+    text-align: center !important;
 }
 
 .home-about {
@@ -86,10 +91,11 @@
 }
 
 .home-about .btn {
-    color: #c60018;
+    color: var(--primary);
     background-color: transparent;
     border: var(--secondary) 1px solid;
     margin-top: 2vw;
+    font-weight: 600;
 }
 
 .home-clients {
@@ -122,4 +128,41 @@
 .home-clients .card-title {
     color: var(--secondary);
     font-size: 1.2vw;
+}
+
+footer {
+    height: 30vh;
+    background-color: #c4c4c4;
+    padding-top: 3vw;
+}
+
+footer .brand-logo {
+    color: var(--primary);
+    text-align: center;
+    padding-top: 3vw;
+    font-size: 1.5vw;
+    font-weight: bold;
+    color: var(--primary);
+}
+
+footer .brand-logo span {
+    color: var(--secondary);
+}
+
+footer p {
+    color: var(--secondary);
+    font-size: 1.2vw;
+}
+
+footer li {
+    list-style: none;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--font-color);
+}
+
+footer a:hover {
+    color: var(--secondary);
 }
