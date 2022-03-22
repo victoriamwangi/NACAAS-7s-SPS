@@ -91,3 +91,35 @@
     border: var(--secondary) 1px solid;
     margin-top: 2vw;
 }
+
+.home-clients {
+    margin: 3vw;
+}
+
+.home-clients .card {
+    border: none;
+}
+
+.home-clients .h-clients {
+    color: #c60018;
+    font: 1.4vw;
+    font-weight: bold;
+    text-align: center;
+}
+
+.home-clients .card-img-top {
+    width: 80%;
+    height: 15vw;
+    padding-top: 1.3vw;
+    object-fit: cover;
+}
+
+.home-clients .card-text {
+    text-align: center;
+    font-size: 1.1vw;
+}
+
+.home-clients .card-title {
+    color: var(--secondary);
+    font-size: 1.2vw;
+}
