@@ -11,15 +11,20 @@
     --ff-primary: "Montserrat", sans-serif;
 }
 .about-header{
-    color: red;
+    color: white;
     font-family: sans-serif;
     
 }
 
-.about, img{
+.about-header, img{
     background-image: url('img/image.png');
     background-size: cover;
     height: 400px;
     padding: 30px;
 
+}
+
+.about-testimonial{
+    background-color: #c6001748;
+    padding: 50px;
 }
