@@ -10,3 +10,14 @@
     --font-color: #08090d;
     --ff-primary: "Montserrat", sans-serif;
 }
+.about{
+    color: red;
+    font-family: sans-serif, "Montserrat";
+    
+}
+.about, img{
+    background: url('img/image.png');
+    background-size: cover;
+    height: 400px;
+
+}
