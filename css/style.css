@@ -10,3 +10,14 @@
     --font-color: #08090d;
     --ff-primary: "Montserrat", sans-serif;
 }
+.container{
+    background-color: #011640;
+    color: white;
+}
+/* .form-control{
+    background-color:#c60018;
+    color: black;
+} */
+/* .form-control3{
+    background-color: #c60018;
+} */
