@@ -15,17 +15,19 @@ body{
     font-family: "Montserrat", sans-serif;
 }
 
-
 .about-header{
     font-family: "Montserrat", sans-serif;
     height: 400px;
     background-image: url('../images/image.png');
     background-size: cover;
-   
-
-}
+   }
 
 .about-testimonial{
     background-color: #c6001748;
     padding: 50px;
 }
+
+.about-ul {
+    list-style-type: circle;
+    margin-left: 50px;
+  }
