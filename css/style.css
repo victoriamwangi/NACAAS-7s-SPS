@@ -10,14 +10,14 @@
     --font-color: #08090d;
     --ff-primary: "Montserrat", sans-serif;
 }
-.container{
-    background-color: #011640;
-    color: white;
+.contact-body{
+    background-image: url("https://img.freepik.com/free-photo/concentrated-african-american-call-center-operator-working_74855-4048.jpg?t=st=1647973765~exp=1647974365~hmac=8a5a561af256b3bb3dc43111aff70795b7edf3180ee8f18adc8dc23cb58df9b7&w=1380");
+    background-size: cover;
 }
-/* .form-control{
-    background-color:#c60018;
-    color: black;
-} */
-/* .form-control3{
-    background-color: #c60018;
-} */
+.contact-form{
+    background-color: #011640c0;
+    color: white;
+    padding: 50px;
+    margin-top: 150px;
+    font-family:"Montserrat", sans-serif;
+}
