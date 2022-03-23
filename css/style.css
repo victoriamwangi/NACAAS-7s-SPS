@@ -10,3 +10,117 @@
     --font-color: #08090d;
     --ff-primary: "Montserrat", sans-serif;
 }
+
+.message-us {
+    background-color: #F2EEEE;
+    color: var(--primary);
+    margin-top: 10%;
+    font-family: var(--ff-primary);
+    
+}
+
+.wrapper {
+    background-color:#F2EEEE ;
+}
+
+.review-section h4 {
+    font-size: 20px;
+    color:var(--font-color);
+    font-weight: 700;
+}
+
+.review-section .stars-counters tr .stars-filter.fit-button {
+    padding: 6px;
+    border: none;
+    color:var(--primary);
+    text-align: left;
+}
+
+.review-section .fit-progressbar-bar .fit-progressbar-background {
+    position: relative;
+    height: 8px;
+    background: #F2EEEE;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    background-color: #F2EEEE;
+    ;
+    border-radius: 999px;
+}
+
+.review-section .stars-counters tr .star-progress-bar .progress-fill {
+    background-color:var(--primary);
+}
+
+.review-section .fit-progressbar-bar .progress-fill {
+    background: var(--primary);
+    background-color: var(--primary);
+    height: 100%;
+    position: absolute;
+    left: 0;
+    z-index: 1;
+    border-radius: 999px;
+}
+
+.review-section .fit-progressbar-bar {
+    display: flex;
+    align-items: center;
+}
+
+.review-section .stars-counters td {
+    white-space: nowrap;
+}
+
+.review-section .stars-counters tr .progress-bar-container {
+    width: 100%;
+    padding: 0 10px 0 6px;
+    margin: auto;
+}
+
+.ranking h6 {
+    font-weight: 600;
+    padding-bottom: 16px;
+}
+
+.ranking li {
+    display: flex;
+    justify-content: space-between;
+    color: var(--font-color);
+    padding-bottom: 8px;
+}
+
+.review-section .stars-counters td.star-num {
+    color: var(--font-color);
+}
+
+.ranking li>span {
+    color: var(--font-color);
+    white-space: nowrap;
+    margin-left: 12px;
+}
+
+.review-section {
+    border-bottom: 1px solid --font-color;
+    padding-bottom: 24px;
+    margin-bottom: 34px;
+    padding-top: 64px;
+}
+
+.review-section select,
+.review-section .select2-container {
+    width: 188px !important;
+    border-radius: 3px;
+}
+
+#content p {
+    color: var(--font-color);
+    font-size: 15px;
+    font-family: var(--ff-primary);
+}
+#content ul {
+    color: var(--font-color);
+}
+
+
+
