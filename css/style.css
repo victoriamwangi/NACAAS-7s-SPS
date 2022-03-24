@@ -24,3 +24,10 @@
 .contact-ul{
     list-style-type: none;
 }
+
+.alert {
+    text-align: center;
+    padding: 10px;
+    background-color: #c60018;
+    display: none;
+}
