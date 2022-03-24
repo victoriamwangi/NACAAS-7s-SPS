@@ -13,8 +13,164 @@ body {
     --primary: #011640;
     --secondary: #c60018;
     --font-color: #08090d;
-    --ff-primary: "Montserrat", sans-serif;
     --grey: #f2eeee;
+    --ff-primary: "Montserrat", sans-serif;
+}
+
+.message-us {
+    background-color: #f2eeee;
+    color: var(--primary);
+    margin-top: 10%;
+    font-family: var(--ff-primary);
+}
+
+.wrapper {
+    background-color: #f2eeee;
+}
+
+.review-section h4 {
+    font-size: 20px;
+    color: var(--font-color);
+    font-weight: 700;
+}
+
+.review-section .stars-counters tr .stars-filter.fit-button {
+    padding: 6px;
+    border: none;
+    color: var(--primary);
+    text-align: left;
+}
+
+.review-section .fit-progressbar-bar .fit-progressbar-background {
+    position: relative;
+    height: 8px;
+    background: #f2eeee;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    background-color: #f2eeee;
+    border-radius: 999px;
+}
+
+.review-section .stars-counters tr .star-progress-bar .progress-fill {
+    background-color: var(--primary);
+}
+
+.review-section .fit-progressbar-bar .progress-fill {
+    background: var(--primary);
+    background-color: var(--primary);
+    height: 100%;
+    position: absolute;
+    left: 0;
+    z-index: 1;
+    border-radius: 999px;
+}
+
+.review-section .fit-progressbar-bar {
+    display: flex;
+    align-items: center;
+}
+
+.review-section .stars-counters td {
+    white-space: nowrap;
+}
+
+.review-section .stars-counters tr .progress-bar-container {
+    width: 100%;
+    padding: 0 10px 0 6px;
+    margin: auto;
+}
+
+.ranking h6 {
+    font-weight: 600;
+    padding-bottom: 16px;
+}
+
+.ranking li {
+    display: flex;
+    justify-content: space-between;
+    color: var(--font-color);
+    padding-bottom: 8px;
+}
+
+.review-section .stars-counters td.star-num {
+    color: var(--font-color);
+}
+
+.ranking li>span {
+    color: var(--font-color);
+    white-space: nowrap;
+    margin-left: 12px;
+}
+
+.review-section {
+    border-bottom: 1px solid --font-color;
+    padding-bottom: 24px;
+    margin-bottom: 34px;
+    padding-top: 64px;
+}
+
+.review-section select,
+.review-section .select2-container {
+    width: 188px !important;
+    border-radius: 3px;
+}
+
+#content p {
+    color: var(--font-color);
+    font-size: 15px;
+    font-family: var(--ff-primary);
+}
+
+#content ul {
+    color: var(--font-color);
+    font-size: 15px;
+}
+
+.contact-body {
+    background-image: url("https://img.freepik.com/free-photo/concentrated-african-american-call-center-operator-working_74855-4048.jpg?t=st=1647973765~exp=1647974365~hmac=8a5a561af256b3bb3dc43111aff70795b7edf3180ee8f18adc8dc23cb58df9b7&w=1380");
+    background-size: cover;
+}
+
+.contact-form {
+    background-color: #011640c0;
+    color: white;
+    padding: 50px;
+    margin-top: 150px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.contact-ul {
+    list-style-type: none;
+}
+
+.alert {
+    text-align: center;
+    padding: 10px;
+    background-color: #c60018;
+    display: none;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.about-header {
+    font-family: "Montserrat", sans-serif;
+    height: 400px;
+    background-image: url("../images/image.png");
+    background-size: cover;
+}
+
+.about-testimonial {
+    background-color: #c6001748;
+    padding: 50px;
+}
+
+.about-ul {
+    list-style-type: circle;
+    margin-left: 50px;
 }
 
 .r-flex {
@@ -55,17 +211,26 @@ body {
 }
 
 .h-carousel {
-    height: 80vh;
-    object-fit: cover;
+    height: 90vh;
 }
 
 .h-carousel-item {
-    height: 80vh;
+    height: 90vh;
     object-fit: cover;
 }
 
 .h-carousel-caption {
     text-align: center !important;
+}
+
+.h-carousel-caption h5 {
+    color: var(--secondary);
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+.h-carousel-caption p {
+    font-size: 1.4vw;
 }
 
 .home-about {
@@ -108,6 +273,7 @@ body {
 
 .home-clients .card {
     border: none;
+    height: 60vh;
 }
 
 .home-clients .h-clients {
@@ -187,4 +353,135 @@ body {
         object-fit: cover;
         padding-left: 4vw;
     }
+}
+
+.basic {
+    background-color: #f2eeee;
+}
+
+.main-content {
+    background-color: var(--primary);
+    width: 50%;
+    height: 700px;
+    border-radius: 20px;
+    box-shadow: 0 5px 5px --font-color;
+    margin: 1em auto;
+    display: flex;
+    font-family: var(--ff-primary);
+}
+
+.company__info {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #f2eeee;
+}
+
+.company_title {
+    color: #f2eeee;
+}
+
+@media screen and (max-width: 640px) {
+    .main-content {
+        width: 90%;
+    }
+    .company__info {
+        display: none;
+    }
+    .login_form {
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+}
+
+@media screen and (min-width: 642px) and (max-width: 800px) {
+    .main-content {
+        width: 70%;
+    }
+}
+
+.row>h2 {
+    color: var(--primary);
+    padding-top: 1em;
+}
+
+.login_form {
+    background-color: #ccc;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+form {
+    padding: 0 2em;
+}
+
+.form__input {
+    width: 100%;
+    border: 0px solid transparent;
+    border-radius: 0;
+    border-bottom: 1px solid #aaa;
+    padding: 1em 0.5em 0.5em;
+    padding-left: 2em;
+    outline: none;
+    margin: 1.5em auto;
+    transition: all 0.5s ease;
+}
+
+.form__input:focus {
+    border-bottom-color: --;
+    box-shadow: 0 0 5px rgba(0, 80, 80, 0.4);
+    border-radius: 4px;
+}
+
+.btn {
+    transition: all 0.5s ease;
+    width: 60%;
+    border-radius: 30px;
+    color: --;
+    font-weight: 600;
+    background-color: rgba(0, 80, 80, 0.4);
+    border: 1px solid --ff-primary;
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+    text-align: center;
+    align-items: center;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: var(--primary);
+    color: #fff;
+}
+
+.an-btn {
+    border: 0;
+    /* background-color: #F2EEEE */
+}
+
+.register_form {
+    background-color: #ccc;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#register_div {
+    display: none;
+}
+
+#result-box {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 14pt;
+    color: #011640;
+}
+
+.btn-google {
+    margin-left: 15%;
 }
