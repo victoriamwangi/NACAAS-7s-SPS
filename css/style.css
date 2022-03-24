@@ -133,11 +133,33 @@ body {
     background-size: cover;
 }
 
+.back-btn {
+    width: 8vw;
+    margin: 0 auto;
+}
+
+.back-btn #back {
+    border-radius: 5px;
+    border: none;
+    background-color: transparent;
+}
+
+#msg-submit {
+    width: 100%;
+    border-radius: 10px;
+    border: var(--secondary) solid 1px;
+    background-color: transparent;
+}
+
+.back-btn svg {
+    font-size: 2vw;
+    color: var(--secondary);
+}
+
 .contact-form {
     background-color: #011640c0;
     color: white;
-    padding: 50px;
-    margin-top: 150px;
+    margin-top: 1vw;
     font-family: "Montserrat", sans-serif;
 }
 
