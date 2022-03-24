@@ -2,6 +2,11 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    overflow-x: none !important;
 }
 
 :root {
@@ -9,4 +14,177 @@
     --secondary: #c60018;
     --font-color: #08090d;
     --ff-primary: "Montserrat", sans-serif;
+    --grey: #f2eeee;
+}
+
+.r-flex {
+    display: flex;
+    align-items: center;
+}
+
+.c-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar {
+    background-color: var(--primary) !important;
+    color: white;
+}
+
+.navbar-brand {
+    color: var(--secondary) !important;
+    padding-left: 2vw;
+}
+
+.nav-link {
+    color: white !important;
+    margin-right: 3vw;
+    font-size: 1.3vw;
+    font-weight: 500;
+}
+
+#navbarSupportedContent {
+    margin-left: 20vw;
+}
+
+#login-nav {
+    color: #c60018 !important;
+    margin-left: 28vw;
+}
+
+.carousel {
+    height: 80vh;
+    object-fit: cover;
+}
+
+.carousel-item {
+    height: 80vh;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    text-align: center !important;
+}
+
+.home-about {
+    padding: 5vw 3vw;
+    background-color: var(--grey);
+}
+
+.home-about img {
+    width: 30vw;
+    height: 30vw;
+    object-fit: cover;
+    padding-left: 4vw;
+}
+
+.home-about .about-text {
+    color: var(--font-color);
+    margin-top: 4vw;
+    padding-left: 7vw;
+    text-align: center;
+    font-family: var(--ff-primary);
+}
+
+.home-about .about-text p {
+    color: var(--secondary);
+    font-size: 1.4vw;
+    font-weight: bold;
+}
+
+.home-about .btn {
+    color: var(--primary);
+    background-color: transparent;
+    border: var(--secondary) 1px solid;
+    margin-top: 2vw;
+    font-weight: 600;
+}
+
+.home-clients {
+    margin: 3vw;
+}
+
+.home-clients .card {
+    border: none;
+}
+
+.home-clients .h-clients {
+    color: #c60018;
+    font: 1.4vw;
+    font-weight: bold;
+    text-align: center;
+}
+
+.home-clients .card-img-top {
+    width: 80%;
+    height: 15vw;
+    padding-top: 1.3vw;
+    object-fit: cover;
+}
+
+.home-clients .card-text {
+    text-align: center;
+    font-size: 1.1vw;
+}
+
+.home-clients .card-title {
+    color: var(--secondary);
+    font-size: 1.2vw;
+}
+
+.footer {
+    height: 30vh;
+    background-color: #c4c4c4;
+    padding-top: 3vw;
+}
+
+.footer .brand-logo {
+    color: var(--primary);
+    text-align: center;
+    padding-top: 3vw;
+    font-size: 1.5vw;
+    font-weight: bold;
+    color: var(--primary);
+}
+
+.footer .brand-logo span {
+    color: var(--secondary);
+}
+
+.footer p {
+    color: var(--secondary);
+    font-size: 1.2vw;
+}
+
+.footer li {
+    list-style: none;
+}
+
+.footer a {
+    text-decoration: none;
+    color: var(--font-color);
+}
+
+.footer a:hover {
+    color: var(--secondary);
+}
+
+@media (min-width: 375px) and (max-width: 912px) {
+    .carousel {
+        height: 40vh;
+        object-fit: cover;
+    }
+    .carousel-item {
+        height: 40vh;
+        object-fit: cover;
+    }
+    .home-about img {
+        width: 90%;
+        height: 30vw;
+        margin-top: 3vw;
+        object-fit: cover;
+        padding-left: 4vw;
+    }
 }
