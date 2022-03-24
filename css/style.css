@@ -14,6 +14,30 @@ body {
     --secondary: #c60018;
     --font-color: #08090d;
     --ff-primary: "Montserrat", sans-serif;
+
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+}
+
+.about-header{
+    font-family: "Montserrat", sans-serif;
+    height: 400px;
+    background-image: url('../images/image.png');
+    background-size: cover;
+   }
+
+.about-testimonial{
+    background-color: #c6001748;
+    padding: 50px;
+}
+
+.about-ul {
+    list-style-type: circle;
+    margin-left: 50px;
+  }
+
     --grey: #f2eeee;
 }
 
@@ -188,3 +212,4 @@ body {
         padding-left: 4vw;
     }
 }
+
