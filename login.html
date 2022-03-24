@@ -5,138 +5,212 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>
-        login page
-    </title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>login page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
 
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/style.css" />
 </head>
 
 <body>
-
     <div class="container-fluid basic" id="login_div">
-        <div class="row main-content  text-center">
+        <div class="back-btn r-flex">
+            <a href="index.html"><svg
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+            role="img"
+            width="1em"
+            height="1em"
+            preserveAspectRatio="xMidYMid meet"
+            viewBox="0 0 20 20"
+          >
+            <path
+              fill="currentColor"
+              d="M19 7v6c0 1.103-.896 2-2 2H3v-3h13V8H5v2L1 6.5L5 3v2h12a2 2 0 0 1 2 2z"
+            /></svg
+        ></a>
+            <a name="" id="back" class="btn btn-primary" href="index.html" role="button">Back</a
+        >
+      </div>
 
-            <div class="col-md-4 text-center company__info">
-                <span class="company__logo">
-                    <img src="https://user-images.githubusercontent.com/66039545/159552447-1762f854-242f-4840-bcad-b3149e0c92c3.png"
-                        alt="" width="100" height="100">
-                </span>
-                <h4 class="company_title">Nacaas-7s-SPS</h4>
-            </div>
-
-            <div class="col-md-8 col-xs-12 col-sm-12 login_form ">
-                <div class="container-fluid">
-                    <div class="row">
-                        <h2>Log In</h2>
-                    </div>
-                    <div class="row">
-                        <form control="" method="post" class="form-group" onclick="return false">
-                            <div class="row">
-                                <input type="email" name="login-email" id="login-email" class="form__input" autocomplete="on"
-                                    placeholder="example@gmail.com" required>
-                            </div>
-                            <div class="row">
-
-                                <input type="password" name="login-password" id="login-password" class="form__input" autocomplete="on"
-                                    placeholder="Password" required>
-                            </div>
-                            <div class="row">
-                                <span>
-                                    <input type="checkbox" name="remember_me" id="remember_me" class="">
-                                    <label for="remember_me">Remember Me!</label>
-                                </span>
-                            </div><br>
-                            <div class="row">
-                                <span style="justify-content: center;">
-
-                                    <button id="login-btn" class="btn">Login</button>
-                                </span>
-                            </div>
-                        </form>
-                    </div><br>
-                    <div class="row">
-                        <button id="reg-btn" class="an-btn" > Don't have an account? <span style="color:#c60018;">Register Here</span> </button>
-                    </div>
-
-                <hr class="my-4">
-                                
-                                <div class="d-grid ps-5">
-                                    <button id="google-login-btn" class="btn btn-lg btn-google btn-login fw-bold text-uppercase"
-                                        type="submit">
-                                        <i class="fab fa-google me-2"></i> Sign in with Google
-                                    </button>
-                                </div>
-                               
-                </div>
-            </div>
+      <div class="row main-content text-center">
+        <div class="col-md-4 text-center company__info">
+          <span class="company__logo">
+            <img
+              src="https://user-images.githubusercontent.com/66039545/159552447-1762f854-242f-4840-bcad-b3149e0c92c3.png"
+              alt=""
+              width="100"
+              height="100"
+            />
+          </span>
+          <h4 class="company_title">Nacaas-7s-SPS</h4>
         </div>
+
+        <div class="col-md-8 col-xs-12 col-sm-12 login_form">
+          <div class="container-fluid">
+            <div class="row">
+              <h2>Log In</h2>
+            </div>
+            <div class="row">
+              <form
+                control=""
+                method="post"
+                class="form-group"
+                onclick="return false"
+              >
+                <div class="row">
+                  <input
+                    type="email"
+                    name="login-email"
+                    id="login-email"
+                    class="form__input"
+                    autocomplete="on"
+                    placeholder="example@gmail.com"
+                    required
+                  />
+                </div>
+                <div class="row">
+                  <input
+                    type="password"
+                    name="login-password"
+                    id="login-password"
+                    class="form__input"
+                    autocomplete="on"
+                    placeholder="Password"
+                    required
+                  />
+                </div>
+                <div class="row">
+                  <span>
+                    <input
+                      type="checkbox"
+                      name="remember_me"
+                      id="remember_me"
+                      class=""
+                    />
+                    <label for="remember_me">Remember Me!</label>
+                  </span>
+                </div>
+                <br />
+                <div class="row">
+                  <span style="justify-content: center">
+                    <button id="login-btn" class="btn">Login</button>
+                  </span>
+                </div>
+              </form>
+            </div>
+            <br />
+            <div class="row">
+              <button id="reg-btn" class="an-btn">
+                Don't have an account?
+                <span style="color: #c60018">Register Here</span>
+              </button>
+            </div>
+
+            <hr class="my-4" />
+
+            <div class="d-grid ps-5">
+              <button
+                id="google-login-btn"
+                class="btn btn-lg btn-google btn-login fw-bold text-uppercase"
+                type="submit"
+              >
+                <i class="fab fa-google me-2"></i> Sign in with Google
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
-                <!-- REGISTER FORM -->
+    <!-- REGISTER FORM -->
     <div class="container-fluid basic" id="register_div">
-        <div class="row main-content  text-center">
-
-            <div class="col-md-4 text-center company__info">
-                <span class="company__logo">
-                    <img src="https://user-images.githubusercontent.com/66039545/159552447-1762f854-242f-4840-bcad-b3149e0c92c3.png"
-                        alt="" width="100" height="100">
-                </span>
-                <h4 class="company_title">Nacaas-7s-SPS</h4>
-            </div>
-
-            <div class="col-md-8 col-xs-12 col-sm-12 register_form">
-                <div class="container-fluid">
-                    <div class="row">
-                        <h2>Register Here</h2>
-                    </div>
-                    <div class="row">
-                        <form control="" method="post" id="reg" class="form-group" onclick="return false">
-                            <div class="row">
-                                <input type="email" id="register-email" name="register-email" class="form__input" autocomplete="on"
-                                    placeholder="example@gmail.com" required>
-                            </div>
-                            <div class="row">
-
-                                <input type="password" id="register-password" name="register-password" class="form__input" autocomplete="on"
-                                    placeholder="Password" required>
-                            </div>
-                            <div class="row">
-                                <span>
-                                    <input type="checkbox" name="remember_me" class="">
-                                    <label for="remember_me">Remember Me!</label>
-                                </span>
-                            </div><br>
-                            <div class="row">
-                                <span style="justify-content: center;">
-
-
-                                    <button id="register-btn" class="btn">Register</button>
-                                </span>
-                            </div>
-                        </form>
-                    </div><br>
-                    <div class="row">
-                       <button id="log-btn" class="an-btn">Have have an account? <span style="color:#c60018;">Login here</span></button> 
-                    </div>
-                </div>
-                <hr class="my-4">
-
-                                <div class="d-grid ps-5">
-                                    <button id="google-register-btn" class="btn btn-lg btn-google btn-login fw-bold text-uppercase"
-                                        type="submit">
-                                        <i class="fab fa-google me-2"></i> Sign up with Google
-                                    </button>
-                                </div>
-            </div>
-              
+      <div class="row main-content text-center">
+        <div class="col-md-4 text-center company__info">
+          <span class="company__logo">
+            <img
+              src="https://user-images.githubusercontent.com/66039545/159552447-1762f854-242f-4840-bcad-b3149e0c92c3.png"
+              alt=""
+              width="100"
+              height="100"
+            />
+          </span>
+          <h4 class="company_title">Nacaas-7s-SPS</h4>
         </div>
+
+        <div class="col-md-8 col-xs-12 col-sm-12 register_form">
+          <div class="container-fluid">
+            <div class="row">
+              <h2>Register Here</h2>
+            </div>
+            <div class="row">
+              <form
+                control=""
+                method="post"
+                id="reg"
+                class="form-group"
+                onclick="return false"
+              >
+                <div class="row">
+                  <input
+                    type="email"
+                    id="register-email"
+                    name="register-email"
+                    class="form__input"
+                    autocomplete="on"
+                    placeholder="example@gmail.com"
+                    required
+                  />
+                </div>
+                <div class="row">
+                  <input
+                    type="password"
+                    id="register-password"
+                    name="register-password"
+                    class="form__input"
+                    autocomplete="on"
+                    placeholder="Password"
+                    required
+                  />
+                </div>
+                <div class="row">
+                  <span>
+                    <input type="checkbox" name="remember_me" class="" />
+                    <label for="remember_me">Remember Me!</label>
+                  </span>
+                </div>
+                <br />
+                <div class="row">
+                  <span style="justify-content: center">
+                    <button id="register-btn" class="btn">Register</button>
+                  </span>
+                </div>
+              </form>
+            </div>
+            <br />
+            <div class="row">
+              <button id="log-btn" class="an-btn">
+                Have have an account?
+                <span style="color: #c60018">Login here</span>
+              </button>
+            </div>
+          </div>
+          <hr class="my-4" />
+
+          <div class="d-grid ps-5">
+            <button
+              id="google-register-btn"
+              class="btn btn-lg btn-google btn-login fw-bold text-uppercase"
+              type="submit"
+            >
+              <i class="fab fa-google me-2"></i> Sign up with Google
+            </button>
+          </div>
+        </div>
+      </div>
     </div>
-<!-- <div id="result-box">
+    <!-- <div id="result-box">
     <h3 id="result"></h3> <br>
     <button id="log-out-btn" class="btn">Log Out</button>
 
@@ -146,6 +220,5 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/popper.js"></script>
     <script type="module" src="js/login.js"></script>
-</body>
-
+  </body>
 </html>

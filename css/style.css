@@ -13,20 +13,19 @@ body {
     --primary: #011640;
     --secondary: #c60018;
     --font-color: #08090d;
-      --grey: #f2eeee;
+    --grey: #f2eeee;
     --ff-primary: "Montserrat", sans-serif;
 }
 
 .message-us {
-    background-color: #F2EEEE;
+    background-color: #f2eeee;
     color: var(--primary);
     margin-top: 10%;
     font-family: var(--ff-primary);
-
 }
 
 .wrapper {
-    background-color: #F2EEEE;
+    background-color: #f2eeee;
 }
 
 .review-section h4 {
@@ -45,13 +44,12 @@ body {
 .review-section .fit-progressbar-bar .fit-progressbar-background {
     position: relative;
     height: 8px;
-    background: #F2EEEE;
+    background: #f2eeee;
     -webkit-box-flex: 1;
     -ms-flex-positive: 1;
     flex-grow: 1;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
-    background-color: #F2EEEE;
-    ;
+    background-color: #f2eeee;
     border-radius: 999px;
 }
 
@@ -130,19 +128,42 @@ body {
     font-size: 15px;
 }
 
-
-.contact-body{
+.contact-body {
     background-image: url("https://img.freepik.com/free-photo/concentrated-african-american-call-center-operator-working_74855-4048.jpg?t=st=1647973765~exp=1647974365~hmac=8a5a561af256b3bb3dc43111aff70795b7edf3180ee8f18adc8dc23cb58df9b7&w=1380");
     background-size: cover;
 }
-.contact-form{
+
+.back-btn {
+    width: 8vw;
+    margin: 0 auto;
+}
+
+.back-btn #back {
+    border-radius: 5px;
+    border: none;
+    background-color: transparent;
+}
+
+#msg-submit {
+    width: 100%;
+    border-radius: 10px;
+    border: var(--secondary) solid 1px;
+    background-color: transparent;
+}
+
+.back-btn svg {
+    font-size: 2vw;
+    color: var(--secondary);
+}
+
+.contact-form {
     background-color: #011640c0;
     color: white;
-    padding: 50px;
-    margin-top: 150px;
-    font-family:"Montserrat", sans-serif;
+    margin-top: 1vw;
+    font-family: "Montserrat", sans-serif;
 }
-.contact-ul{
+
+.contact-ul {
     list-style-type: none;
 }
 
@@ -153,18 +174,18 @@ body {
     display: none;
 }
 
-body{
+body {
     font-family: "Montserrat", sans-serif;
 }
 
-.about-header{
+.about-header {
     font-family: "Montserrat", sans-serif;
     height: 400px;
-    background-image: url('../images/image.png');
+    background-image: url("../images/image.png");
     background-size: cover;
-   }
+}
 
-.about-testimonial{
+.about-testimonial {
     background-color: #c6001748;
     padding: 50px;
 }
@@ -172,8 +193,7 @@ body{
 .about-ul {
     list-style-type: circle;
     margin-left: 50px;
-  }
-
+}
 
 .r-flex {
     display: flex;
@@ -212,18 +232,27 @@ body{
     margin-left: 28vw;
 }
 
-.carousel {
-    height: 80vh;
+.h-carousel {
+    height: 90vh;
+}
+
+.h-carousel-item {
+    height: 90vh;
     object-fit: cover;
 }
 
-.carousel-item {
-    height: 80vh;
-    object-fit: cover;
-}
-
-.carousel-caption {
+.h-carousel-caption {
     text-align: center !important;
+}
+
+.h-carousel-caption h5 {
+    color: var(--secondary);
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+.h-carousel-caption p {
+    font-size: 1.4vw;
 }
 
 .home-about {
@@ -266,6 +295,7 @@ body{
 
 .home-clients .card {
     border: none;
+    height: 60vh;
 }
 
 .home-clients .h-clients {
@@ -330,11 +360,11 @@ body{
 }
 
 @media (min-width: 375px) and (max-width: 912px) {
-    .carousel {
+    .h-carousel {
         height: 40vh;
         object-fit: cover;
     }
-    .carousel-item {
+    .h-carousel-item {
         height: 40vh;
         object-fit: cover;
     }
@@ -348,7 +378,7 @@ body{
 }
 
 .basic {
-    background-color: #F2EEEE;
+    background-color: #f2eeee;
 }
 
 .main-content {
@@ -360,7 +390,6 @@ body{
     margin: 1em auto;
     display: flex;
     font-family: var(--ff-primary);
-
 }
 
 .company__info {
@@ -369,28 +398,27 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: #F2EEEE;
+    color: #f2eeee;
 }
 
-.company_title{
-    color: #F2EEEE;
+.company_title {
+    color: #f2eeee;
 }
+
 @media screen and (max-width: 640px) {
     .main-content {
         width: 90%;
     }
-
     .company__info {
         display: none;
     }
-
     .login_form {
         border-top-left-radius: 20px;
         border-bottom-left-radius: 20px;
     }
 }
 
-@media screen and (min-width: 642px) and (max-width:800px) {
+@media screen and (min-width: 642px) and (max-width: 800px) {
     .main-content {
         width: 70%;
     }
@@ -418,32 +446,31 @@ form {
     border: 0px solid transparent;
     border-radius: 0;
     border-bottom: 1px solid #aaa;
-    padding: 1em .5em .5em;
+    padding: 1em 0.5em 0.5em;
     padding-left: 2em;
     outline: none;
     margin: 1.5em auto;
-    transition: all .5s ease;
+    transition: all 0.5s ease;
 }
 
 .form__input:focus {
     border-bottom-color: --;
-    box-shadow: 0 0 5px rgba(0, 80, 80, .4);
+    box-shadow: 0 0 5px rgba(0, 80, 80, 0.4);
     border-radius: 4px;
 }
 
 .btn {
-    transition: all .5s ease;
+    transition: all 0.5s ease;
     width: 60%;
     border-radius: 30px;
     color: --;
     font-weight: 600;
-    background-color: rgba(0, 80, 80, .4);
+    background-color: rgba(0, 80, 80, 0.4);
     border: 1px solid --ff-primary;
     margin-top: 1.5em;
     margin-bottom: 1em;
     text-align: center;
     align-items: center;
-
 }
 
 .btn:hover,
@@ -459,23 +486,24 @@ form {
 
 .register_form {
     background-color: #ccc;
-     border-top-right-radius: 20px;
-     border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
+
 #register_div {
-display: none;
+    display: none;
 }
 
 #result-box {
     display: none;
     position: absolute;
     top: 50%;
-    left:50%;
+    left: 50%;
     transform: translate(-50%, -50%);
     font-size: 14pt;
     color: #011640;
 }
 
- .btn-google {
-     margin-left: 15%;
- }
+.btn-google {
+    margin-left: 15%;
+}
