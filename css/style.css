@@ -347,3 +347,135 @@ body{
     }
 }
 
+.basic {
+    background-color: #F2EEEE;
+}
+
+.main-content {
+    background-color: var(--primary);
+    width: 50%;
+    height: 700px;
+    border-radius: 20px;
+    box-shadow: 0 5px 5px --font-color;
+    margin: 1em auto;
+    display: flex;
+    font-family: var(--ff-primary);
+
+}
+
+.company__info {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #F2EEEE;
+}
+
+.company_title{
+    color: #F2EEEE;
+}
+@media screen and (max-width: 640px) {
+    .main-content {
+        width: 90%;
+    }
+
+    .company__info {
+        display: none;
+    }
+
+    .login_form {
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+}
+
+@media screen and (min-width: 642px) and (max-width:800px) {
+    .main-content {
+        width: 70%;
+    }
+}
+
+.row>h2 {
+    color: var(--primary);
+    padding-top: 1em;
+}
+
+.login_form {
+    background-color: #ccc;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+form {
+    padding: 0 2em;
+}
+
+.form__input {
+    width: 100%;
+    border: 0px solid transparent;
+    border-radius: 0;
+    border-bottom: 1px solid #aaa;
+    padding: 1em .5em .5em;
+    padding-left: 2em;
+    outline: none;
+    margin: 1.5em auto;
+    transition: all .5s ease;
+}
+
+.form__input:focus {
+    border-bottom-color: --;
+    box-shadow: 0 0 5px rgba(0, 80, 80, .4);
+    border-radius: 4px;
+}
+
+.btn {
+    transition: all .5s ease;
+    width: 60%;
+    border-radius: 30px;
+    color: --;
+    font-weight: 600;
+    background-color: rgba(0, 80, 80, .4);
+    border: 1px solid --ff-primary;
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+    text-align: center;
+    align-items: center;
+
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: var(--primary);
+    color: #fff;
+}
+
+.an-btn {
+    border: 0;
+    /* background-color: #F2EEEE */
+}
+
+.register_form {
+    background-color: #ccc;
+     border-top-right-radius: 20px;
+     border-bottom-right-radius: 20px;
+}
+#register_div {
+display: none;
+}
+
+#result-box {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    font-size: 14pt;
+    color: #011640;
+}
+
+ .btn-google {
+     margin-left: 15%;
+ }
