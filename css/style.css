@@ -16,23 +16,23 @@
     color: var(--primary);
     margin-top: 10%;
     font-family: var(--ff-primary);
-    
+
 }
 
 .wrapper {
-    background-color:#F2EEEE ;
+    background-color: #F2EEEE;
 }
 
 .review-section h4 {
     font-size: 20px;
-    color:var(--font-color);
+    color: var(--font-color);
     font-weight: 700;
 }
 
 .review-section .stars-counters tr .stars-filter.fit-button {
     padding: 6px;
     border: none;
-    color:var(--primary);
+    color: var(--primary);
     text-align: left;
 }
 
@@ -50,7 +50,7 @@
 }
 
 .review-section .stars-counters tr .star-progress-bar .progress-fill {
-    background-color:var(--primary);
+    background-color: var(--primary);
 }
 
 .review-section .fit-progressbar-bar .progress-fill {
@@ -118,9 +118,8 @@
     font-size: 15px;
     font-family: var(--ff-primary);
 }
+
 #content ul {
     color: var(--font-color);
+    font-size: 15px;
 }
-
-
-
