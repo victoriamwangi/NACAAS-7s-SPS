@@ -2,11 +2,480 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    overflow-x: none !important;
 }
 
 :root {
     --primary: #011640;
     --secondary: #c60018;
     --font-color: #08090d;
+      --grey: #f2eeee;
     --ff-primary: "Montserrat", sans-serif;
 }
+
+.message-us {
+    background-color: #F2EEEE;
+    color: var(--primary);
+    margin-top: 10%;
+    font-family: var(--ff-primary);
+
+}
+
+.wrapper {
+    background-color: #F2EEEE;
+}
+
+.review-section h4 {
+    font-size: 20px;
+    color: var(--font-color);
+    font-weight: 700;
+}
+
+.review-section .stars-counters tr .stars-filter.fit-button {
+    padding: 6px;
+    border: none;
+    color: var(--primary);
+    text-align: left;
+}
+
+.review-section .fit-progressbar-bar .fit-progressbar-background {
+    position: relative;
+    height: 8px;
+    background: #F2EEEE;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    background-color: #F2EEEE;
+    ;
+    border-radius: 999px;
+}
+
+.review-section .stars-counters tr .star-progress-bar .progress-fill {
+    background-color: var(--primary);
+}
+
+.review-section .fit-progressbar-bar .progress-fill {
+    background: var(--primary);
+    background-color: var(--primary);
+    height: 100%;
+    position: absolute;
+    left: 0;
+    z-index: 1;
+    border-radius: 999px;
+}
+
+.review-section .fit-progressbar-bar {
+    display: flex;
+    align-items: center;
+}
+
+.review-section .stars-counters td {
+    white-space: nowrap;
+}
+
+.review-section .stars-counters tr .progress-bar-container {
+    width: 100%;
+    padding: 0 10px 0 6px;
+    margin: auto;
+}
+
+.ranking h6 {
+    font-weight: 600;
+    padding-bottom: 16px;
+}
+
+.ranking li {
+    display: flex;
+    justify-content: space-between;
+    color: var(--font-color);
+    padding-bottom: 8px;
+}
+
+.review-section .stars-counters td.star-num {
+    color: var(--font-color);
+}
+
+.ranking li>span {
+    color: var(--font-color);
+    white-space: nowrap;
+    margin-left: 12px;
+}
+
+.review-section {
+    border-bottom: 1px solid --font-color;
+    padding-bottom: 24px;
+    margin-bottom: 34px;
+    padding-top: 64px;
+}
+
+.review-section select,
+.review-section .select2-container {
+    width: 188px !important;
+    border-radius: 3px;
+}
+
+#content p {
+    color: var(--font-color);
+    font-size: 15px;
+    font-family: var(--ff-primary);
+}
+
+#content ul {
+    color: var(--font-color);
+    font-size: 15px;
+}
+
+
+.contact-body{
+    background-image: url("https://img.freepik.com/free-photo/concentrated-african-american-call-center-operator-working_74855-4048.jpg?t=st=1647973765~exp=1647974365~hmac=8a5a561af256b3bb3dc43111aff70795b7edf3180ee8f18adc8dc23cb58df9b7&w=1380");
+    background-size: cover;
+}
+.contact-form{
+    background-color: #011640c0;
+    color: white;
+    padding: 50px;
+    margin-top: 150px;
+    font-family:"Montserrat", sans-serif;
+}
+.contact-ul{
+    list-style-type: none;
+}
+
+.alert {
+    text-align: center;
+    padding: 10px;
+    background-color: #c60018;
+    display: none;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+}
+
+.about-header{
+    font-family: "Montserrat", sans-serif;
+    height: 400px;
+    background-image: url('../images/image.png');
+    background-size: cover;
+   }
+
+.about-testimonial{
+    background-color: #c6001748;
+    padding: 50px;
+}
+
+.about-ul {
+    list-style-type: circle;
+    margin-left: 50px;
+  }
+
+
+.r-flex {
+    display: flex;
+    align-items: center;
+}
+
+.c-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar {
+    background-color: var(--primary) !important;
+    color: white;
+}
+
+.navbar-brand {
+    color: var(--secondary) !important;
+    padding-left: 2vw;
+}
+
+.nav-link {
+    color: white !important;
+    margin-right: 3vw;
+    font-size: 1.3vw;
+    font-weight: 500;
+}
+
+#navbarSupportedContent {
+    margin-left: 20vw;
+}
+
+#login-nav {
+    color: #c60018 !important;
+    margin-left: 28vw;
+}
+
+.carousel {
+    height: 80vh;
+    object-fit: cover;
+}
+
+.carousel-item {
+    height: 80vh;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    text-align: center !important;
+}
+
+.home-about {
+    padding: 5vw 3vw;
+    background-color: var(--grey);
+}
+
+.home-about img {
+    width: 30vw;
+    height: 30vw;
+    object-fit: cover;
+    padding-left: 4vw;
+}
+
+.home-about .about-text {
+    color: var(--font-color);
+    margin-top: 4vw;
+    padding-left: 7vw;
+    text-align: center;
+    font-family: var(--ff-primary);
+}
+
+.home-about .about-text p {
+    color: var(--secondary);
+    font-size: 1.4vw;
+    font-weight: bold;
+}
+
+.home-about .btn {
+    color: var(--primary);
+    background-color: transparent;
+    border: var(--secondary) 1px solid;
+    margin-top: 2vw;
+    font-weight: 600;
+}
+
+.home-clients {
+    margin: 3vw;
+}
+
+.home-clients .card {
+    border: none;
+}
+
+.home-clients .h-clients {
+    color: #c60018;
+    font: 1.4vw;
+    font-weight: bold;
+    text-align: center;
+}
+
+.home-clients .card-img-top {
+    width: 80%;
+    height: 15vw;
+    padding-top: 1.3vw;
+    object-fit: cover;
+}
+
+.home-clients .card-text {
+    text-align: center;
+    font-size: 1.1vw;
+}
+
+.home-clients .card-title {
+    color: var(--secondary);
+    font-size: 1.2vw;
+}
+
+.footer {
+    height: 30vh;
+    background-color: #c4c4c4;
+    padding-top: 3vw;
+}
+
+.footer .brand-logo {
+    color: var(--primary);
+    text-align: center;
+    padding-top: 3vw;
+    font-size: 1.5vw;
+    font-weight: bold;
+    color: var(--primary);
+}
+
+.footer .brand-logo span {
+    color: var(--secondary);
+}
+
+.footer p {
+    color: var(--secondary);
+    font-size: 1.2vw;
+}
+
+.footer li {
+    list-style: none;
+}
+
+.footer a {
+    text-decoration: none;
+    color: var(--font-color);
+}
+
+.footer a:hover {
+    color: var(--secondary);
+}
+
+@media (min-width: 375px) and (max-width: 912px) {
+    .carousel {
+        height: 40vh;
+        object-fit: cover;
+    }
+    .carousel-item {
+        height: 40vh;
+        object-fit: cover;
+    }
+    .home-about img {
+        width: 90%;
+        height: 30vw;
+        margin-top: 3vw;
+        object-fit: cover;
+        padding-left: 4vw;
+    }
+}
+
+.basic {
+    background-color: #F2EEEE;
+}
+
+.main-content {
+    background-color: var(--primary);
+    width: 50%;
+    height: 700px;
+    border-radius: 20px;
+    box-shadow: 0 5px 5px --font-color;
+    margin: 1em auto;
+    display: flex;
+    font-family: var(--ff-primary);
+
+}
+
+.company__info {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #F2EEEE;
+}
+
+.company_title{
+    color: #F2EEEE;
+}
+@media screen and (max-width: 640px) {
+    .main-content {
+        width: 90%;
+    }
+
+    .company__info {
+        display: none;
+    }
+
+    .login_form {
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+}
+
+@media screen and (min-width: 642px) and (max-width:800px) {
+    .main-content {
+        width: 70%;
+    }
+}
+
+.row>h2 {
+    color: var(--primary);
+    padding-top: 1em;
+}
+
+.login_form {
+    background-color: #ccc;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+form {
+    padding: 0 2em;
+}
+
+.form__input {
+    width: 100%;
+    border: 0px solid transparent;
+    border-radius: 0;
+    border-bottom: 1px solid #aaa;
+    padding: 1em .5em .5em;
+    padding-left: 2em;
+    outline: none;
+    margin: 1.5em auto;
+    transition: all .5s ease;
+}
+
+.form__input:focus {
+    border-bottom-color: --;
+    box-shadow: 0 0 5px rgba(0, 80, 80, .4);
+    border-radius: 4px;
+}
+
+.btn {
+    transition: all .5s ease;
+    width: 60%;
+    border-radius: 30px;
+    color: --;
+    font-weight: 600;
+    background-color: rgba(0, 80, 80, .4);
+    border: 1px solid --ff-primary;
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+    text-align: center;
+    align-items: center;
+
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: var(--primary);
+    color: #fff;
+}
+
+.an-btn {
+    border: 0;
+    /* background-color: #F2EEEE */
+}
+
+.register_form {
+    background-color: #ccc;
+     border-top-right-radius: 20px;
+     border-bottom-right-radius: 20px;
+}
+#register_div {
+display: none;
+}
+
+#result-box {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    font-size: 14pt;
+    color: #011640;
+}
+
+ .btn-google {
+     margin-left: 15%;
+ }
