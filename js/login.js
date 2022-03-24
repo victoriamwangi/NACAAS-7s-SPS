@@ -50,9 +50,6 @@
           .then((userCredential) => {
 
               const user = userCredential.user;
-              //   document.getElementById('result-box').style.display = "inline";
-              //   document.getElementById('login_div').style.display = "none";
-              //   document.getElementById('result').innerHTML = "Welcome Back <br>" + loginEmail + " was logged in successfully";
               location.href = "profile.html";
 
           })
@@ -78,18 +75,13 @@
           .then((userCredential) => {
 
               const user = userCredential.user;
-              //   document.getElementById('result-box').style.display = "inline";
-              //   document.getElementById('register_div').style.display = "none";
-              //   document.getElementById('result').innerHTML = "Welcome <br>" + registerEmail + " Registered successfully";
               location.href = "profile.html";
 
           })
           .catch((error) => {
               const errorCode = error.code;
               const errorMessage = error.message;
-              //   document.getElementById('result-box').style.display = "inline";
-              //   document.getElementById('register_div').style.display = "none";
-              //   document.getElementById('result').innerHTML = "Sorry! <br>" + errorMessage
+
 
 
           });
@@ -106,9 +98,6 @@
               const token = credential.accessToken;
 
               const user = result.user;
-              //   document.getElementById('result-box').style.display = "inline";
-              //   document.getElementById('login_div').style.display = "none";
-              //   document.getElementById('result').innerHTML = "Welcome <br>" + user.displayName + " was logged in successfully";
               location.href = "profile.html";
 
 
@@ -131,9 +120,6 @@
                   const token = credential.accessToken;
 
                   const user = result.user;
-                  //   document.getElementById('result-box').style.display = "inline";
-                  //   document.getElementById('register_div').style.display = "none";
-                  //   document.getElementById('result').innerHTML = "Welcome <br>" + user.displayName + " Registered successfully";
                   location.href = "profile.html";
 
 
@@ -143,9 +129,7 @@
                   const errorMessage = error.message;
                   const email = error.email;
                   const credential = GoogleAuthProvider.credentialFromError(error);
-                  //   document.getElementById('result-box').style.display = "inline";
-                  //   document.getElementById('register_div').style.display = "none";
-                  //   document.getElementById('result').innerHTML = "Sorry! <br>" + errorMessage
+
 
 
               });
