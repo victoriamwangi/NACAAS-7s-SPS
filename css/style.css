@@ -16,6 +16,30 @@ body {
     --ff-primary: "Montserrat", sans-serif;
 
 }
+.contact-body{
+    background-image: url("https://img.freepik.com/free-photo/concentrated-african-american-call-center-operator-working_74855-4048.jpg?t=st=1647973765~exp=1647974365~hmac=8a5a561af256b3bb3dc43111aff70795b7edf3180ee8f18adc8dc23cb58df9b7&w=1380");
+    background-size: cover;
+}
+.contact-form{
+    background-color: #011640c0;
+    color: white;
+    padding: 50px;
+    margin-top: 150px;
+    font-family:"Montserrat", sans-serif;
+}
+.contact-ul{
+    list-style-type: none;
+}
+
+.alert {
+    text-align: center;
+    padding: 10px;
+    background-color: #c60018;
+    display: none;
+}
+
+
+}
 
 body{
     font-family: "Montserrat", sans-serif;
