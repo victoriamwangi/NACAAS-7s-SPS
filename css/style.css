@@ -115,3 +115,31 @@ form {
     background-color: var(--primary);
     color: #fff;
 }
+
+.an-btn {
+    border: 0;
+    /* background-color: #F2EEEE */
+}
+
+.register_form {
+    background-color: #ccc;
+     border-top-right-radius: 20px;
+     border-bottom-right-radius: 20px;
+}
+#register_div {
+display: none;
+}
+
+#result-box {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    font-size: 14pt;
+    color: #011640;
+}
+
+ .btn-google {
+     margin-left: 15%;
+ }
