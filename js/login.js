@@ -50,15 +50,15 @@
           .then((userCredential) => {
 
               const user = userCredential.user;
+              alert("Welcome Back " + loginEmail + " was logged in successfully")
               location.href = "profile.html";
 
           })
           .catch((error) => {
               const errorCode = error.code;
               const errorMessage = error.message;
-              document.getElementById('result-box').style.display = "inline";
-              document.getElementById('login_div').style.display = "none";
-              document.getElementById('result').innerHTML = "Sorry! <br>" + errorMessage
+              alert("Sorry! " + errorMessage)
+          
           });
 
 
@@ -75,12 +75,14 @@
           .then((userCredential) => {
 
               const user = userCredential.user;
+              alert("Welcome " + registerEmail + " Registered successfully")
               location.href = "profile.html";
 
           })
           .catch((error) => {
               const errorCode = error.code;
               const errorMessage = error.message;
+              alert("Sorry! " + errorMessage)
 
 
 
@@ -97,7 +99,8 @@
               const credential = GoogleAuthProvider.credentialFromResult(result);
               const token = credential.accessToken;
 
-              const user = result.user;
+            const user = result.user; 
+              alert("Welcome " + user.displayName + " was logged in successfully")
               location.href = "profile.html";
 
 
@@ -107,6 +110,7 @@
               const errorMessage = error.message;
               const email = error.email;
               const credential = GoogleAuthProvider.credentialFromError(error);
+              alert(error.message)
 
           });
 
@@ -120,6 +124,7 @@
                   const token = credential.accessToken;
 
                   const user = result.user;
+                  alert( "Welcome " + user.displayName + " Registered successfully")
                   location.href = "profile.html";
 
 
@@ -129,6 +134,8 @@
                   const errorMessage = error.message;
                   const email = error.email;
                   const credential = GoogleAuthProvider.credentialFromError(error);
+                  alert(error.message)
+
 
 
 
@@ -137,16 +144,4 @@
 
   });
 
-  document.getElementById('log-out-btn').addEventListener('click', function () {
-      signOut(auth).then(() => {
-          document.getElementById('result-box').style.display = "none";
-          document.getElementById('login_div').style.display = "inline";
-
-      }).catch((error) => {
-          document.getElementById('result').innerHTML = "Sorry! <br>" + errorMessage
-
-      });
-
-
-
-  });
+  
