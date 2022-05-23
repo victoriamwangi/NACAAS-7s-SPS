@@ -1,5 +1,5 @@
 ##### By FeverCode 
-### Akana name generator
+### Naacas 7s SPSs
 
 ## Table of Content
 
